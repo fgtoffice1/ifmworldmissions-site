@@ -1,0 +1,35 @@
+var _____WB$wombat$assign$function_____=function(name){return (self._wb_wombat && self._wb_wombat.local_init && self._wb_wombat.local_init(name))||self[name];};if(!self.__WB_pmw){self.__WB_pmw=function(obj){this.__WB_source=obj;return this;}}{
+let window = _____WB$wombat$assign$function_____("window");
+let self = _____WB$wombat$assign$function_____("self");
+let document = _____WB$wombat$assign$function_____("document");
+let location = _____WB$wombat$assign$function_____("location");
+let top = _____WB$wombat$assign$function_____("top");
+let parent = _____WB$wombat$assign$function_____("parent");
+let frames = _____WB$wombat$assign$function_____("frames");
+let opens = _____WB$wombat$assign$function_____("opens");
+define("@wsb/guac-widget-shared/c/dynamicFontScaler-ecd443bf.js",["exports"],(function(e){"use strict";const t={wordWrap:"normal !important",overflowWrap:"normal !important",display:"none",visibility:"hidden",position:"absolute",width:"auto",overflow:"visible",left:0};e.d=function(e){let{text:a,containerId:n,font:o,fontSizes:i,style:r,Tag:l=(global.Core||guac["@wsb/guac-widget-core"]).UX2.Element.Element,typography:c,targetId:d,maxLines:s=3,prioritizeDefault:g}=e;const p={containerId:n,targetId:d,fontSizes:i,maxLines:s,prioritizeDefault:g};return{element:(global.React||guac.react).createElement((global.React||guac.react).Fragment,null,i.map((e=>(global.React||guac.react).createElement(l,{tag:"span",key:e,font:o,style:{...r,...t,fontSize:e},"data-size":e,"data-scaler-id":`scaler-${n}`,typography:c,"data-ux":"scaler","aria-hidden":!0},a)))),scriptProps:p,callback:()=>window.wsb.DynamicFontScaler(p)}}})),"undefined"!=typeof window&&(window.global=window);
+//# sourceMappingURL=dynamicFontScaler-ecd443bf.js.map
+
+}
+
+/*
+     FILE ARCHIVED ON 06:17:20 Apr 20, 2025 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 22:30:36 Mar 10, 2026.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  capture_cache.get: 0.818
+  load_resource: 1278.572 (2)
+  PetaboxLoader3.resolve: 117.676 (2)
+  PetaboxLoader3.datanode: 1262.527 (8)
+  captures_list: 0.798
+  exclusion.robots: 0.019
+  exclusion.robots.policy: 0.007
+  esindex: 0.009
+  cdx.remote: 51.371
+  LoadShardBlock: 263.646 (6)
+*/

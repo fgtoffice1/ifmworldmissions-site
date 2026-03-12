@@ -1,0 +1,35 @@
+var _____WB$wombat$assign$function_____=function(name){return (self._wb_wombat && self._wb_wombat.local_init && self._wb_wombat.local_init(name))||self[name];};if(!self.__WB_pmw){self.__WB_pmw=function(obj){this.__WB_source=obj;return this;}}{
+let window = _____WB$wombat$assign$function_____("window");
+let self = _____WB$wombat$assign$function_____("self");
+let document = _____WB$wombat$assign$function_____("document");
+let location = _____WB$wombat$assign$function_____("location");
+let top = _____WB$wombat$assign$function_____("top");
+let parent = _____WB$wombat$assign$function_____("parent");
+let frames = _____WB$wombat$assign$function_____("frames");
+let opens = _____WB$wombat$assign$function_____("opens");
+define("@wsb/guac-widget-shared/lib/components/ColorSwatch-4196a0a9.js",["exports"],(function(e){"use strict";const o=e=>{let{color:o,isActive:t,inStock:r,isSmall:l}=e;const a=r||void 0===r,c=l?"24px":"38px",n=l?"20px":"32px",i={borderRadius:"50%",borderWidth:"1px",borderStyle:"solid"},s={outer:{...i,display:"flex",alignItems:"center",justifyContent:"center",width:c,height:c,borderColor:t?"lowContrast":"transparent"},inner:{...i,borderColor:"ultraLowContrast",color:"ultraLowContrast",width:n,height:n,background:a?o:`linear-gradient(to left top, ${o} calc(50% - 1px), currentColor, ${o} calc(50% + 1px) )`}};return(global.React||guac.react).createElement((global.Core||guac["@wsb/guac-widget-core"]).UX2.Element.Block,{style:s.outer},(global.React||guac.react).createElement((global.Core||guac["@wsb/guac-widget-core"]).UX2.Element.Block,{style:s.inner}))};o.propTypes={color:(global.PropTypes||guac["prop-types"]).string.isRequired,isActive:(global.PropTypes||guac["prop-types"]).bool,inStock:(global.PropTypes||guac["prop-types"]).bool,isSmall:(global.PropTypes||guac["prop-types"]).bool},e.default=o,Object.defineProperty(e,"__esModule",{value:!0})})),"undefined"!=typeof window&&(window.global=window);
+//# sourceMappingURL=ColorSwatch-4196a0a9.js.map
+
+}
+
+/*
+     FILE ARCHIVED ON 13:10:17 Apr 20, 2025 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 22:30:34 Mar 10, 2026.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  capture_cache.get: 0.829
+  load_resource: 753.13 (2)
+  PetaboxLoader3.resolve: 605.508 (2)
+  PetaboxLoader3.datanode: 243.2 (8)
+  captures_list: 0.808
+  exclusion.robots: 0.019
+  exclusion.robots.policy: 0.006
+  esindex: 0.01
+  cdx.remote: 31.109
+  LoadShardBlock: 171.885 (6)
+*/

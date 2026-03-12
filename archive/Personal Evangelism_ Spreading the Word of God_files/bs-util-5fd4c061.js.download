@@ -1,0 +1,35 @@
+var _____WB$wombat$assign$function_____=function(name){return (self._wb_wombat && self._wb_wombat.local_init && self._wb_wombat.local_init(name))||self[name];};if(!self.__WB_pmw){self.__WB_pmw=function(obj){this.__WB_source=obj;return this;}}{
+let window = _____WB$wombat$assign$function_____("window");
+let self = _____WB$wombat$assign$function_____("self");
+let document = _____WB$wombat$assign$function_____("document");
+let location = _____WB$wombat$assign$function_____("location");
+let top = _____WB$wombat$assign$function_____("top");
+let parent = _____WB$wombat$assign$function_____("parent");
+let frames = _____WB$wombat$assign$function_____("frames");
+let opens = _____WB$wombat$assign$function_____("opens");
+define("@widget/GALLERY/c/bs-util-5fd4c061.js",["exports"],(function(e){"use strict";e.a=function(e){let r=arguments.length>1&&void 0!==arguments[1]?arguments[1]:2,n=arguments.length>2&&void 0!==arguments[2]?arguments[2]:r+2;if(e<=n)return[e];const i=[];let t=n+1,o=e;for(;t>r;){t--;const r=e/t,n=Math.ceil(r);if(n>o)break;o=n;const a=Math.floor(r),d=e-a*t;i.push({cur:t,maxes:a,remainder:d})}const a=i.sort(((e,r)=>e.remainder>r.remainder?1:e.remainder<r.remainder?-1:0))[0],d=Array(a.maxes).fill(a.cur);if(0===a.remainder)return d;if(a.remainder<r){const e=d.pop()-a.remainder;d.push(e),d.push(r)}else d.push(a.remainder);return d},e.g=function(e,r,n){let i,t=arguments.length>3&&void 0!==arguments[3]?arguments[3]:"image";return"image"===t?i=[e,`rs=w:${r},h:${n},cg:true,m/cr=w:${r},h:${n},a:cc`].join(e.endsWith("/")?"":"/"):"background"===t&&(i=e.replace(/\{width\}/g,r).replace(/\{height\}/g,n)),i}})),"undefined"!=typeof window&&(window.global=window);
+//# sourceMappingURL=bs-util-5fd4c061.js.map
+
+}
+
+/*
+     FILE ARCHIVED ON 06:46:50 Apr 20, 2025 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 22:30:38 Mar 10, 2026.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  capture_cache.get: 0.433
+  load_resource: 452.736 (2)
+  PetaboxLoader3.resolve: 263.684 (2)
+  PetaboxLoader3.datanode: 714.756 (5)
+  captures_list: 0.575
+  exclusion.robots: 0.017
+  exclusion.robots.policy: 0.007
+  esindex: 0.008
+  cdx.remote: 33.936
+  LoadShardBlock: 587.334 (3)
+*/

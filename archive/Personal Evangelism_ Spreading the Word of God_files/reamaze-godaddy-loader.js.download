@@ -1,0 +1,27 @@
+var _____WB$wombat$assign$function_____=function(name){return (self._wb_wombat && self._wb_wombat.local_init && self._wb_wombat.local_init(name))||self[name];};if(!self.__WB_pmw){self.__WB_pmw=function(obj){this.__WB_source=obj;return this;}}{
+let window = _____WB$wombat$assign$function_____("window");
+let self = _____WB$wombat$assign$function_____("self");
+let document = _____WB$wombat$assign$function_____("document");
+let location = _____WB$wombat$assign$function_____("location");
+let top = _____WB$wombat$assign$function_____("top");
+let parent = _____WB$wombat$assign$function_____("parent");
+let frames = _____WB$wombat$assign$function_____("frames");
+let opens = _____WB$wombat$assign$function_____("opens");
+!function(){var e,t="cookie_terms_accepted",n=!1,a=function(){if(!n&&"undefined"==typeof Reamaze){var e=document.createElement("script");e.type="text/javascript",e.async=!0,e.defer="defer",e.src="//web.archive.org/web/20250420094200/https://cdn.reamaze.com/assets/reamaze.js";var t=document.getElementsByTagName("script")[0];t?t.parentNode.insertBefore(e,t):document.head?document.head.appendChild(e):document.body.appendChild(e),n=!0}},c=function(){return-1!==document.cookie.indexOf(t+"=")};e=setInterval((function(){c()&&(clearInterval(e),a()),"undefined"!=typeof Reamaze&&clearInterval(e)}),1e3)}();
+}
+
+/*
+     FILE ARCHIVED ON 09:42:00 Apr 20, 2025 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 22:33:21 Mar 10, 2026.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  capture_cache.get: 4.643
+  load_resource: 424.608
+  PetaboxLoader3.resolve: 306.694
+  PetaboxLoader3.datanode: 79.022
+*/

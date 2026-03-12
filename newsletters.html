@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Newsletters | International Focus Ministries</title>
+    <meta name="description" content="Read the latest updates and newsletters from International Focus Ministries.">
+    <link rel="stylesheet" href="styles/main.css">
+    
+    <!-- Load PDF.js for rendering PDF thumbnails -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.4.120/pdf.min.js"></script>
+    <script>
+        pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.4.120/pdf.worker.min.js';
+    </script>
+</head>
+<body>
+
+    <header>
+        <div class="nav-container">
+            <a href="index.html" class="logo">IFM</a>
+            <button class="hamburger">☰</button>
+            <nav class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="newsletters.html" class="active">Newsletters</a>
+                <a href="contact.html">Contact & Donate</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Page Header -->
+        <section class="page-header">
+            <h1 data-aos>Ministry Newsletters</h1>
+            <p class="subtitle" data-aos>Updates from the mission field.</p>
+        </section>
+
+        <!-- Admin Upload Section (Hidden by Default) -->
+        <section id="adminSection" class="admin-section" style="display: none;">
+            <div class="container">
+                <div id="dropzone" class="dropzone">
+                    <p style="font-size: 1.2rem; font-weight: 500;">Drag and Drop a PDF Newsletter Here</p>
+                    <p style="color: var(--text-muted); font-size: 0.9rem;">or click to select a file.</p>
+                    <input type="file" id="fileInput" accept="application/pdf" style="display: none;">
+                </div>
+                <!-- Loading indicator -->
+                <div id="loadingIndicator" style="display:none; text-align: center; margin-top: 1rem;">
+                    <p>Processing PDF into an image... please wait.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Latest Newsletter Section -->
+        <section class="section latest-newsletter-section" data-aos>
+            <div class="container text-center">
+                <h2>Latest Newsletter</h2>
+                
+                <div id="latestNewsletterContainer" class="latest-container">
+                    <p class="empty-state">No newsletters uploaded yet. Click Admin to upload your first one!</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Archive Section -->
+        <section class="section archive-section bg-light">
+            <div class="container">
+                <h3 class="text-center" style="margin-bottom: 3rem;">Archived Newsletters</h3>
+                
+                <div id="archiveGrid" class="archive-grid">
+                    <!-- Archive items will be injected here -->
+                </div>
+            </div>
+        </section>
+        
+        <!-- Full PDF Modal Viewer -->
+        <div id="pdfModal" class="pdf-modal">
+            <div class="modal-content">
+                <span class="close-modal">&times;</span>
+                <iframe id="pdfViewer" src="" width="100%" height="100%" style="border: none;"></iframe>
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <span class="footer-logo">International Focus Ministries</span>
+                <p>Doing our part to win the world for Christ.</p>
+            </div>
+            <div class="copyright">
+                <p>Copyright &copy; 2026 International Focus Ministries - All Rights Reserved.</p>
+                <div style="margin-top: 1.5rem;">
+                    <button id="toggleAdminBtn" style="background: none; border: none; color: rgba(255,255,255,0.15); font-size: 0.85rem; cursor: pointer; padding: 0.5rem; transition: color 0.3s;">Admin Login</button>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="scripts/main.js"></script>
+    <script src="scripts/newsletters.js"></script>
+</body>
+</html>

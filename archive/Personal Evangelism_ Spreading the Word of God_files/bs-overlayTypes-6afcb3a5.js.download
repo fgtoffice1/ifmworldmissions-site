@@ -1,0 +1,29 @@
+var _____WB$wombat$assign$function_____=function(name){return (self._wb_wombat && self._wb_wombat.local_init && self._wb_wombat.local_init(name))||self[name];};if(!self.__WB_pmw){self.__WB_pmw=function(obj){this.__WB_source=obj;return this;}}{
+let window = _____WB$wombat$assign$function_____("window");
+let self = _____WB$wombat$assign$function_____("self");
+let document = _____WB$wombat$assign$function_____("document");
+let location = _____WB$wombat$assign$function_____("location");
+let top = _____WB$wombat$assign$function_____("top");
+let parent = _____WB$wombat$assign$function_____("parent");
+let frames = _____WB$wombat$assign$function_____("frames");
+let opens = _____WB$wombat$assign$function_____("opens");
+define("@widget/LAYOUT/c/bs-overlayTypes-6afcb3a5.js",["exports"],(function(e){"use strict";const{headerTreatments:{FILL:o,FIT:a,INSET:n,BLUR:t,LEGACY_BLUR:c,WIDE_INSET:d,FLEX_FILL:i}}=(global.Core||guac["@wsb/guac-widget-core"]).constants;e.A="accent",e.B=t,e.C="category",e.F=o,e.I="Image",e.L=c,e.N="neutral",e.P="primary",e.S="Slideshow",e.V="Video",e.W=d,e.a="none",e.b=a,e.c=n,e.d=i,e.e="None",e.f="light_dark"})),"undefined"!=typeof window&&(window.global=window);
+//# sourceMappingURL=bs-overlayTypes-6afcb3a5.js.map
+
+}
+
+/*
+     FILE ARCHIVED ON 06:17:20 Apr 20, 2025 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 22:33:16 Mar 10, 2026.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  capture_cache.get: 0.371
+  load_resource: 174.206
+  PetaboxLoader3.resolve: 114.313
+  PetaboxLoader3.datanode: 38.953
+*/

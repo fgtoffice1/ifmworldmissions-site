@@ -1,0 +1,29 @@
+var _____WB$wombat$assign$function_____=function(name){return (self._wb_wombat && self._wb_wombat.local_init && self._wb_wombat.local_init(name))||self[name];};if(!self.__WB_pmw){self.__WB_pmw=function(obj){this.__WB_source=obj;return this;}}{
+let window = _____WB$wombat$assign$function_____("window");
+let self = _____WB$wombat$assign$function_____("self");
+let document = _____WB$wombat$assign$function_____("document");
+let location = _____WB$wombat$assign$function_____("location");
+let top = _____WB$wombat$assign$function_____("top");
+let parent = _____WB$wombat$assign$function_____("parent");
+let frames = _____WB$wombat$assign$function_____("frames");
+let opens = _____WB$wombat$assign$function_____("opens");
+define("@wsb/guac-widget-shared/lib/components/Recaptcha/badge-e542c4f1.js",["exports"],(function(e){"use strict";class a extends(global.React||guac.react).Component{render(){return(global.React||guac.react).createElement((global.Core||guac["@wsb/guac-widget-core"]).UX.Style,null,".grecaptcha-badge { visibility: hidden; }")}}e.default=a,Object.defineProperty(e,"__esModule",{value:!0})})),"undefined"!=typeof window&&(window.global=window);
+//# sourceMappingURL=badge-e542c4f1.js.map
+
+}
+
+/*
+     FILE ARCHIVED ON 06:46:47 Apr 20, 2025 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 22:33:16 Mar 10, 2026.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  capture_cache.get: 0.703
+  load_resource: 132.405
+  PetaboxLoader3.resolve: 50.868
+  PetaboxLoader3.datanode: 80.242
+*/

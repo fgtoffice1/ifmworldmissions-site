@@ -1,0 +1,35 @@
+var _____WB$wombat$assign$function_____=function(name){return (self._wb_wombat && self._wb_wombat.local_init && self._wb_wombat.local_init(name))||self[name];};if(!self.__WB_pmw){self.__WB_pmw=function(obj){this.__WB_source=obj;return this;}}{
+let window = _____WB$wombat$assign$function_____("window");
+let self = _____WB$wombat$assign$function_____("self");
+let document = _____WB$wombat$assign$function_____("document");
+let location = _____WB$wombat$assign$function_____("location");
+let top = _____WB$wombat$assign$function_____("top");
+let parent = _____WB$wombat$assign$function_____("parent");
+let frames = _____WB$wombat$assign$function_____("frames");
+let opens = _____WB$wombat$assign$function_____("opens");
+define("@widget/LAYOUT/c/bs-_rollupPluginBabelHelpers-5804ec33.js",["exports"],(function(e){"use strict";function r(){return r=Object.assign?Object.assign.bind():function(e){for(var r=1;r<arguments.length;r++){var n=arguments[r];for(var t in n)({}).hasOwnProperty.call(n,t)&&(e[t]=n[t])}return e},r.apply(null,arguments)}e._=function(e,r,n){return(r=function(e){var r=function(e,r){if("object"!=typeof e||!e)return e;var n=e[Symbol.toPrimitive];if(void 0!==n){var t=n.call(e,r||"default");if("object"!=typeof t)return t;throw new TypeError("@@toPrimitive must return a primitive value.")}return("string"===r?String:Number)(e)}(e,"string");return"symbol"==typeof r?r:r+""}(r))in e?Object.defineProperty(e,r,{value:n,enumerable:!0,configurable:!0,writable:!0}):e[r]=n,e},e.a=r})),"undefined"!=typeof window&&(window.global=window);
+//# sourceMappingURL=bs-_rollupPluginBabelHelpers-5804ec33.js.map
+
+}
+
+/*
+     FILE ARCHIVED ON 06:17:20 Apr 20, 2025 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 22:30:33 Mar 10, 2026.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  capture_cache.get: 0.378
+  load_resource: 1260.133 (2)
+  PetaboxLoader3.resolve: 1181.19 (2)
+  PetaboxLoader3.datanode: 119.048 (5)
+  captures_list: 0.654
+  exclusion.robots: 0.031
+  exclusion.robots.policy: 0.02
+  esindex: 0.013
+  cdx.remote: 31.181
+  LoadShardBlock: 72.82 (3)
+*/

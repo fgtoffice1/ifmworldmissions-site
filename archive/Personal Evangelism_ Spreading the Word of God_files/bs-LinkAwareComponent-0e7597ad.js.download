@@ -1,0 +1,35 @@
+var _____WB$wombat$assign$function_____=function(name){return (self._wb_wombat && self._wb_wombat.local_init && self._wb_wombat.local_init(name))||self[name];};if(!self.__WB_pmw){self.__WB_pmw=function(obj){this.__WB_source=obj;return this;}}{
+let window = _____WB$wombat$assign$function_____("window");
+let self = _____WB$wombat$assign$function_____("self");
+let document = _____WB$wombat$assign$function_____("document");
+let location = _____WB$wombat$assign$function_____("location");
+let top = _____WB$wombat$assign$function_____("top");
+let parent = _____WB$wombat$assign$function_____("parent");
+let frames = _____WB$wombat$assign$function_____("frames");
+let opens = _____WB$wombat$assign$function_____("opens");
+define("@widget/LAYOUT/bs-LinkAwareComponent-0e7597ad.js",["exports","~/bs-FlyoutMenu-Component","~/c/bs-_rollupPluginBabelHelpers"],(function(e,t,o){"use strict";const{PUBLISH:n}=(global.Core||guac["@wsb/guac-widget-core"]).constants.renderModes;var i,s,a,c=(i=t.default,s=class extends(global.React||guac.react).Component{constructor(){super(...arguments),this.checkActiveLink=this.checkActiveLink.bind(this),this.state={isActive:!1}}componentDidMount(){const{toggleId:e}=this.props;this.moreDropdownElement=document.getElementById(e),this.moreDropdownElement&&(this.checkActiveLink(),window.addEventListener("NavItemsResized",this.checkActiveLink,{passive:!0}))}componentWillUnmount(){this.moreDropdownElement&&window.removeEventListener("NavItemsResized",this.checkActiveLink,{passive:!0})}checkActiveLink(){const{renderMode:e}=this.props;window.requestAnimationFrame((()=>{let t=!1;const o=this.moreDropdownElement.querySelector('[data-ux="NavLinkActive"]')||this.moreDropdownElement.querySelector('[data-ux="NavMoreMenuLinkActive"]')||this.moreDropdownElement.querySelector('[data-ux="NavMoreMenuLinkNestedActive"]'),i=o&&o.closest("li");o&&"visible"===i?.style?.visibility&&(t=e===n?o.href.includes(window.location.pathname):window.location.pathname.includes(o.dataset.page)),this.setState({isActive:t})}))}render(){return(global.React||guac.react).createElement(i,o.a({},this.props,this.state))}},o._(s,"displayName",`WithActiveLinkDetection(${a=i,a.displayName||a.name||"Component"})`),o._(s,"propTypes",{renderMode:(global.PropTypes||guac["prop-types"]).oneOf(Object.values((global.Core||guac["@wsb/guac-widget-core"]).constants.renderModes)),toggleId:(global.PropTypes||guac["prop-types"]).string}),s);e.default=c,Object.defineProperty(e,"__esModule",{value:!0})})),"undefined"!=typeof window&&(window.global=window);
+//# sourceMappingURL=bs-LinkAwareComponent-0e7597ad.js.map
+
+}
+
+/*
+     FILE ARCHIVED ON 08:52:46 Apr 20, 2025 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 22:30:37 Mar 10, 2026.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  capture_cache.get: 0.363
+  load_resource: 541.441 (2)
+  PetaboxLoader3.resolve: 395.319 (2)
+  PetaboxLoader3.datanode: 550.886 (5)
+  captures_list: 0.627
+  exclusion.robots: 0.019
+  exclusion.robots.policy: 0.007
+  esindex: 0.01
+  cdx.remote: 55.915
+  LoadShardBlock: 490.777 (3)
+*/
